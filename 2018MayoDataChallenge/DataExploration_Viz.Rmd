@@ -1,0 +1,47 @@
+---
+title: "Exploring the Data with Visualizations"
+author: "Jimmy Hickey"
+date: "18-07-23"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The purpose of this document is to show some visualizations that give an overview of and breakdown of the data. 
+
+[//]: # Gross inline styling. I'm so sorry.
+
+<span style = "color:red">***WARNING***</span>: These visualizations will not look pretty. Also, I don't know how to manipulate images in RMarkdown yet. Sorry.
+
+
+ ![Dead Status Distribution][deadstatus_distribution]
+ 
+ Status seems fairly evenly distributed, so don't need to worry too much about poor sampling in CV and bootstrapping. 
+ 
+ 
+ ![Gender Distribution][gender_distribution]      
+ 
+ More males than females  
+
+ 
+ ![Histology Distribution][histology_distribution]  
+ 
+ Squamous cell is the most represented
+ 
+ ![Overall Stage Distribution][overallstage_distribution]  
+ 
+ Most subjects in stage IIIb
+
+ 
+ ![Survival Time Distribution][survivaltime_distribution]  
+ 
+ Most people in earlier survival times (binned by 100s). Also, all dead in first few.
+
+
+[deadstatus_distribution]: ../img/deadstatus_distribution.png
+[gender_distribution]: ../img/gender_distribution.png
+[histology_distribution]: ../img/histology_distribution.png
+[overallstage_distribution]: ../img/overallstage_distribution.png
+[survivaltime_distribution]: ../img/survivaltime_distribution.png
