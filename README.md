@@ -1,2 +1,3 @@
-# Data_Challenge_2018
-Mayo Statistical Methods Forum Data Challenge 2018
+Jimmy Hickey and Byron Smith's workspace for the 2018 Mayo Clinic Data Challenge.
+
+Details for the challenge can be found in Introduction.pdf.

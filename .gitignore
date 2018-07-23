@@ -1,5 +1,8 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-.twbx
+.DS_Store
+*.Rproj
+*.Rhistory
+*.RData
+*.Ruserdata
+*.twbx
+*.twbr
+*.twb
