@@ -6,3 +6,5 @@
 *.twbx
 *.twbr
 *.twb
+.Rproj.user
+.Rapp.history
